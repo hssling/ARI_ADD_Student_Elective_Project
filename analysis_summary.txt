@@ -1,0 +1,5 @@
+IPD Data Analysis Summary
+==================================================
+Total records: 1366
+Date range: 2025-08-01 05:24:00 to 2025-11-12 23:57:00
+Columns: ['sn', 'unnamed:_1', 'ip_number', 'pr_number', 'admission_time', 'discharge_time', 'patient_name', 'a/s', 'department', 'ward/bed', 'diagnosis', 'icd_code', 'unnamed:_12', 'unnamed:_13', 'admission_date', 'admission_time_only', 'admission_datetime', 'age', 'gender', 'age_group', 'length_of_stay', 'los_category', 'admission_month', 'admission_day']

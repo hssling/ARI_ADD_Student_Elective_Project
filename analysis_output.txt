@@ -1,0 +1,208 @@
+Data loaded successfully
+Shape: (1366, 14)
+Columns: ['SN', 'Unnamed: 1', 'IP Number', 'PR Number', 'Admission Time', 'Discharge Time', 'Patient Name', 'A/S', 'Department', 'Ward/Bed', 'Diagnosis', 'ICD Code', 'Unnamed: 12', 'Unnamed: 13']
+
+First 5 rows:
+   SN            Unnamed: 1     IP Number  ...  ICD Code Unnamed: 12 Unnamed: 13
+0   1  RESPIRATORY MEDICINE  IP2508010016  ...       NaN         NaN    2.088194
+1   2  RESPIRATORY MEDICINE  IP2508010171  ...       NaN         NaN    6.742361
+2   3  RESPIRATORY MEDICINE  IP2508010189  ...       NaN         NaN    2.861806
+3   4  RESPIRATORY MEDICINE  IP2508020179  ...       NaN         NaN    1.661111
+4   5  RESPIRATORY MEDICINE  IP2508030003  ...       NaN         NaN    3.152083
+
+[5 rows x 14 columns]
+
+Data types:
+SN                  int64
+Unnamed: 1         object
+IP Number          object
+PR Number           int64
+Admission Time     object
+Discharge Time     object
+Patient Name       object
+A/S                object
+Department         object
+Ward/Bed           object
+Diagnosis          object
+ICD Code           object
+Unnamed: 12       float64
+Unnamed: 13       float64
+dtype: object
+
+Missing values:
+sn                   0
+unnamed:_1           0
+ip_number            0
+pr_number            0
+admission_time       0
+discharge_time       3
+patient_name         0
+a/s                  0
+department           0
+ward/bed             0
+diagnosis           31
+icd_code          1358
+unnamed:_12       1366
+unnamed:_13       1101
+dtype: int64
+Converted admission_time to datetime
+Converted discharge_time to datetime
+
+==================================================
+DEMOGRAPHIC ANALYSIS
+==================================================
+Age statistics:
+count    1366.000000
+mean       41.140556
+std        25.438758
+min         0.000000
+25%        20.000000
+50%        45.000000
+75%        64.000000
+max        91.000000
+Name: age, dtype: float64
+Age distribution:
+age_group
+65+      329
+0-18     310
+51-65    275
+36-50    238
+19-35    214
+Name: count, dtype: int64
+
+Gender distribution:
+gender
+M    802
+F    564
+Name: count, dtype: int64
+
+==================================================
+LENGTH OF STAY ANALYSIS
+==================================================
+Length of stay statistics:
+count    364.000000
+mean      87.627438
+std       62.867205
+min      -60.075000
+25%       31.240278
+50%       89.134375
+75%      122.612153
+max      304.169444
+Name: length_of_stay, dtype: float64
+Length of stay distribution:
+los_category
+30+ days      309
+1 day          40
+15-30 days     13
+2-3 days        0
+8-14 days       0
+4-7 days        0
+Name: count, dtype: int64
+
+==================================================
+DIAGNOSIS ANALYSIS
+==================================================
+
+Top 10 diagnosis:
+diagnosis
+VIRAL FEVER                               12
+ACUTE FEBRILE ILLNESS                     12
+LRTI                                      11
+BRONCHIOLITIS                             10
+LOWER RESPIRATORY TRACT INFECTION          9
+UPPER RESPIRATORY TRACT INFECTION          6
+ACUTE FEBRILE ILLNESS UNDER EVALUATION     4
+FEVER WITH THROMBOCYTOPENIA                4
+VIRAL FEVER WITH THROMBOCYTOPENIA          4
+VIRAL FEVER WITH URTI                      3
+Name: count, dtype: int64
+
+Top 10 icd_code:
+icd_code
+A09, I10, J96.9, T50.9                    1
+R57.0, J18.9, J44.9                       1
+J44.9, R57.0, J81, I20.0, I25.9, A41.9    1
+A16.2, J96.0, J98.4, J44.9                1
+J44.9, I10, E119, E87.0                   1
+J69.0                                     1
+E87.6, J44.9, I27.2                       1
+E112, E87.5, J44.9, J96.1                 1
+Name: count, dtype: int64
+
+==================================================
+DEPARTMENT/UNIT ANALYSIS
+==================================================
+
+department distribution:
+department
+GENERAL MEDICINE        810
+PAEDIATRIC              285
+RESPIRATORY MEDICINE    271
+Name: count, dtype: int64
+
+ward/bed distribution:
+ward/bed
+MICU/5              14
+M TB W/5            13
+MICU/9              13
+M M W 1/30          12
+M TB W/1            12
+                    ..
+F M W 2/1            1
+F EM W1/10           1
+M M W 4 (HDU)/10     1
+M M W 4 (HDU)/13     1
+F EM W1/11           1
+Name: count, Length: 401, dtype: int64
+
+==================================================
+DISCHARGE STATUS ANALYSIS
+==================================================
+
+discharge_time distribution:
+discharge_time
+2025-01-09 12:00:00    8
+2025-10-09 12:00:00    6
+2025-11-09 12:00:00    5
+2025-04-10 12:00:00    5
+2025-11-08 12:00:00    5
+                      ..
+2025-11-08 16:53:00    1
+2025-12-08 14:42:00    1
+2025-12-08 14:34:00    1
+2025-12-08 14:01:00    1
+2025-01-12 15:02:00    1
+Name: count, Length: 471, dtype: int64
+
+==================================================
+TIME-BASED ANALYSIS
+==================================================
+Monthly admissions:
+admission_month
+2025-01    41
+2025-02    30
+2025-03    56
+2025-04    62
+2025-05    42
+2025-06    45
+2025-07    45
+2025-08    40
+2025-09    42
+2025-10    42
+2025-11    60
+2025-12    52
+Freq: M, dtype: int64
+
+Admissions by day of week:
+admission_day
+Tuesday      109
+Wednesday     92
+Thursday      79
+Sunday        77
+Monday        71
+Saturday      70
+Friday        59
+Name: count, dtype: int64
+Error saving results: [Errno 13] Permission denied: 'gender_distribution.csv'
+
+Analysis complete!

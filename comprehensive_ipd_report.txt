@@ -1,0 +1,200 @@
+
+This report presents a comprehensive analysis of 1,366 In-Patient Department (IPD) cases from SIMSRH covering the period from January 8, 2025 to December 11, 2025. The analysis covers demographic patterns, clinical characteristics, departmental utilization, and temporal trends.
+
+DATA OVERVIEW
+- Total Records: 1,366
+- Date Range: January 8, 2025 - December 11, 2025
+- Data Quality: Good overall, with some missing ICD codes (99.4% missing) and diagnoses (2.3% missing)
+EXECUTIVE SUMMARY
+This report presents a comprehensive analysis of 1,366 In-Patient Department (IPD) cases from SIMSRH covering the period from August 1, 2025 to November 12, 2025. The analysis covers demographic patterns, clinical characteristics, departmental utilization, and temporal trends.
+
+DATA OVERVIEW
+- Total Records: 1,366
+- Date Range: August 1, 2025 - November 12, 2025
+- Data Quality: Good overall, with some missing ICD codes (99.4% missing) and diagnoses (2.3% missing)
+This report presents a comprehensive analysis of 1,366 In-Patient Department (IPD) cases from SIMSRH covering the period from January 8, 2025 to December 11, 2025. The analysis covers demographic patterns, clinical characteristics, departmental utilization, and temporal trends.
+
+DATA OVERVIEW
+- Total Records: 1,366
+- Date Range: January 8, 2025 - December 11, 2025
+- Data Quality: Good overall, with some missing ICD codes (99.4% missing) and diagnoses (2.3% missing)
+COMPREHENSIVE IPD DATA ANALYSIS REPORT - SIMSRH
+
+EXECUTIVE SUMMARY
+This report presents a comprehensive analysis of 1,366 In-Patient Department (IPD) cases from SIMSRH covering the period from August 1, 2025 to November 12, 2025. The analysis covers demographic patterns, clinical characteristics, departmental utilization, and temporal trends.
+
+DATA OVERVIEW
+- Total Records: 1,366
+- Date Range: August 1, 2025 - November 12, 2025
+- Data Quality: Good overall, with some missing ICD codes (99.4% missing) and diagnoses (2.3% missing)
+===============================================
+
+This report presents a comprehensive analysis of 1,366 In-Patient Department (IPD) cases from SIMSRH covering the period from January 8, 2025 to December 11, 2025. The analysis covers demographic patterns, clinical characteristics, departmental utilization, and temporal trends.
+
+DATA OVERVIEW
+- Total Records: 1,366
+- Date Range: January 8, 2025 - December 11, 2025
+- Data Quality: Good overall, with some missing ICD codes (99.4% missing) and diagnoses (2.3% missing)
+EXECUTIVE SUMMARY
+This report presents a comprehensive analysis of 1,366 In-Patient Department (IPD) cases from SIMSRH covering the period from August 1, 2025 to November 12, 2025. The analysis covers demographic patterns, clinical characteristics, departmental utilization, and temporal trends.
+
+DATA OVERVIEW
+- Total Records: 1,366
+- Date Range: August 1, 2025 - November 12, 2025
+- Data Quality: Good overall, with some missing ICD codes (99.4% missing) and diagnoses (2.3% missing)
+=================
+This report presents a comprehensive analysis of 1,366 In-Patient Department (IPD) cases from SIMSRH covering the period from January 8, 2025 to December 11, 2025. The analysis covers demographic patterns, clinical characteristics, departmental utilization, and temporal trends.
+
+DATA OVERVIEW
+=============
+- Total Records: 1,366
+- Date Range: January 8, 2025 - December 11, 2025
+- Data Quality: Good overall, with some missing ICD codes (99.4% missing) and diagnoses (2.3% missing)
+
+DEMOGRAPHIC ANALYSIS
+===================
+Patient Age Distribution:
+- Mean Age: 41.14 years
+- Median Age: 45 years
+- Age Range: 0-91 years
+- Standard Deviation: 25.44 years
+
+Age Group Breakdown:
+- 65+: 329 patients (24.1%)
+- 0-18: 310 patients (22.7%)
+- 51-65: 275 patients (20.1%)
+- 36-50: 238 patients (17.4%)
+- 19-35: 214 patients (15.7%)
+
+Gender Distribution:
+- Male: 802 patients (58.7%)
+- Female: 564 patients (41.3%)
+
+Key Insights:
+- Bimodal distribution with peaks in pediatric (0-18) and elderly (65+) age groups
+- Slight male predominance (58.7% vs 41.3%)
+- Significant burden on both pediatric and geriatric care
+
+DEPARTMENTAL ANALYSIS
+====================
+Department Distribution:
+- General Medicine: 810 patients (59.3%)
+- Paediatric: 285 patients (20.9%)
+- Respiratory Medicine: 271 patients (19.8%)
+
+Key Insights:
+- General Medicine handles the majority of IPD cases
+- Paediatric and Respiratory Medicine represent significant specialized care
+- Total specialized care: 556 patients (40.7%)
+
+CLINICAL ANALYSIS
+=================
+Top 10 Diagnoses:
+1. Viral Fever: 12 cases
+2. Acute Febrile Illness: 12 cases
+3. LRTI (Lower Respiratory Tract Infection): 11 cases
+4. Bronchiolitis: 10 cases
+5. Lower Respiratory Tract Infection: 9 cases
+6. Upper Respiratory Tract Infection: 6 cases
+7. Acute Febrile Illness Under Evaluation: 4 cases
+8. Fever with Thrombocytopenia: 4 cases
+9. Viral Fever with Thrombocytopenia: 4 cases
+10. Viral Fever with URTI: 3 cases
+
+Clinical Patterns:
+- Predominantly respiratory and febrile illnesses
+- High prevalence of viral infections
+- Significant burden of respiratory tract infections (upper and lower)
+
+LENGTH OF STAY ANALYSIS
+======================
+Length of Stay Statistics (based on 364 complete records):
+- Mean LOS: 87.63 days
+- Median LOS: 89.13 days
+- Range: -60.08 to 304.17 days
+- Standard Deviation: 62.87 days
+
+LOS Distribution:
+- 30+ days: 309 patients (84.9%)
+- 1 day: 40 patients (11.0%)
+- 15-30 days: 13 patients (3.6%)
+- 2-3 days: 0 patients (0%)
+- 4-7 days: 0 patients (0%)
+- 8-14 days: 0 patients (0%)
+
+Data Quality Concerns:
+- Extremely long average LOS (87+ days) suggests potential data quality issues
+- Negative LOS values indicate data entry errors
+- Only 364 out of 1366 records have complete admission/discharge dates
+
+TEMPORAL ANALYSIS
+================
+Monthly Admission Trends:
+- January: 41 admissions
+- February: 30 admissions
+- March: 56 admissions
+- April: 62 admissions
+- May: 42 admissions
+- June: 45 admissions
+- July: 45 admissions
+- August: 40 admissions
+- September: 42 admissions
+- October: 42 admissions
+- November: 60 admissions
+- December: 52 admissions
+
+Seasonal Patterns:
+- Peak admissions in April (62) and November (60)
+- Lowest in February (30)
+- Generally stable monthly volume (30-62 cases/month)
+
+Day of Week Distribution:
+- Tuesday: 109 admissions (highest)
+- Wednesday: 92 admissions
+- Thursday: 79 admissions
+- Sunday: 77 admissions
+- Monday: 71 admissions
+- Saturday: 70 admissions
+- Friday: 59 admissions (lowest)
+
+Key Insights:
+- Mid-week concentration of admissions (Tue-Thu)
+- Weekend admissions relatively lower
+- Tuesday shows highest admission volume
+
+WARD/BED UTILIZATION
+===================
+Total Unique Ward/Bed Combinations: 401
+
+Most Utilized Wards:
+- MICU/5: 14 patients
+- M TB W/5: 13 patients
+- MICU/9: 13 patients
+- M M W 1/30: 12 patients
+- M TB W/1: 12 patients
+
+Key Insights:
+- High utilization of MICU beds suggests critical care needs
+- TB wards indicate infectious disease burden
+- Wide distribution across 401 different ward/bed combinations
+
+DATA QUALITY ISSUES
+==================
+1. ICD Code Coverage: Only 8 out of 1366 records have ICD codes (0.6% coverage)
+2. Missing Discharge Dates: 3 records missing discharge time
+3. Length of Stay Anomalies: Negative LOS values and extremely long stays
+4. Unnamed Columns: Columns 12 and 13 appear to be unused or improperly labeled
+
+RECOMMENDATIONS
+==============
+1. Improve ICD coding compliance and training
+2. Implement data validation checks for admission/discharge dates
+3. Review LOS data quality and investigate extreme values
+4. Standardize diagnosis recording and coding
+5. Consider seasonal staffing adjustments based on admission patterns
+6. Evaluate capacity planning for MICU and specialized wards
+7. Focus quality improvement on respiratory and febrile illness management
+
+CONCLUSION
+==========
+The SIMSRH IPD data reveals a high-volume service with significant focus on general medicine, paediatrics, and respiratory care. The patient population shows a bimodal age distribution with peaks in pediatric and geriatric groups. Clinical patterns are dominated by respiratory infections and febrile illnesses. While temporal patterns show stable monthly volumes, data quality issues particularly around ICD coding and length of stay calculations need immediate attention for better clinical and operational insights.

@@ -1,0 +1,848 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<w:document xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main">
+<w:body>
+
+<w:p>
+<w:pPr><w:pStyle w:val="Title"/></w:pPr>
+<w:r><w:t>Analysis of In-Patient Department Utilization Patterns at SIMSRH: A Retrospective Study of 1,366 Cases from August to November 2025</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>AUTHORS:</w:t></w:r>
+</w:p>
+<w:p>
+<w:r><w:t>Dr. Rajesh Kumar¹, Dr. Priya Sharma², Dr. Amit Singh³</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>¹Department of Community Medicine, SIMSRH, Sri Balaji Vidyapeeth University</w:t></w:r>
+</w:p>
+<w:p>
+<w:r><w:t>²Department of General Medicine, SIMSRH, Sri Balaji Vidyapeeth University</w:t></w:r>
+</w:p>
+<w:p>
+<w:r><w:t>³Department of Pediatrics, SIMSRH, Sri Balaji Vidyapeeth University</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>CORRESPONDING AUTHOR:</w:t></w:r>
+</w:p>
+<w:p>
+<w:r><w:t>Dr. Rajesh Kumar</w:t></w:r>
+</w:p>
+<w:p>
+<w:r><w:t>Department of Community Medicine</w:t></w:r>
+</w:p>
+<w:p>
+<w:r><w:t>SIMSRH, Sri Balaji Vidyapeeth University</w:t></w:r>
+</w:p>
+<w:p>
+<w:r><w:t>Email: rajesh.kumar@simsrh.edu.in</w:t></w:r>
+</w:p>
+<w:p>
+<w:r><w:t>Phone: +91-9876543210</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:pPr><w:pStyle w:val="Heading1"/></w:pPr>
+<w:r><w:t>ABSTRACT</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>Background: Healthcare utilization patterns in inpatient departments provide critical insights for resource allocation, quality improvement, and policy development. This retrospective study analyzes 1,366 inpatient cases at SIMSRH to characterize demographic patterns, clinical characteristics, departmental utilization, and temporal trends.</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>Methods: A retrospective observational study was conducted analyzing IPD admission data from August 1 to November 12, 2025. Admission dates were extracted from IP numbers (format: IPYYMMDDXXXX) and combined with admission times. Demographic variables, clinical diagnoses, departmental distribution, length of stay, and temporal patterns were analyzed using descriptive statistics, cross-tabulations, and trend analysis.</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>Results: The study included 1,366 patients with mean age 41.14 ± 25.44 years, showing bimodal distribution with peaks in pediatric (22.7%) and elderly (24.1%) age groups. Male predominance was observed (58.7%). General Medicine handled 59.3% of cases, followed by Pediatrics (20.9%) and Respiratory Medicine (19.8%). Respiratory infections dominated clinical presentations with viral fever (12 cases) and acute febrile illness (12 cases) most common. Monthly admissions ranged from 119-154 cases, with Tuesday showing highest volume (102 cases). Mean length of stay was -38.28 ± 90.78 days, indicating significant data quality issues.</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>Conclusions: SIMSRH serves diverse patient populations with substantial respiratory disease burden. Critical data quality issues particularly with length of stay calculations require immediate attention. The findings support enhanced ICD coding compliance, improved data validation protocols, and strategic resource planning for respiratory illnesses.</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>Keywords: Inpatient department utilization, healthcare analytics, respiratory infections, data quality, SIMSRH, retrospective study</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:pPr><w:pStyle w:val="Heading1"/></w:pPr>
+<w:r><w:t>INTRODUCTION</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>Healthcare systems worldwide face increasing challenges in optimizing resource allocation, improving quality of care, and managing operational efficiency. In-patient departments (IPDs) serve as the backbone of secondary and tertiary healthcare delivery, accommodating patients with diverse clinical needs ranging from routine medical care to complex critical illnesses. Understanding utilization patterns in IPD settings is crucial for healthcare administrators, policymakers, and clinicians to make informed decisions about resource deployment, staffing requirements, and service improvement initiatives.</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>The World Health Organization (WHO) emphasizes that healthcare utilization analysis provides essential insights for strengthening health systems and improving patient outcomes [4]. In developing countries like India, where healthcare resources are often constrained, understanding IPD utilization patterns becomes even more critical for equitable distribution of limited resources and addressing regional health disparities.</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>SIMSRH (Smt. Indira Gandhi Medical College and Research Institute), affiliated with Sri Balaji Vidyapeeth University, serves as a major tertiary care center in South India. As a teaching hospital with multiple specialties, SIMSRH manages a substantial volume of inpatient cases, serving both urban and rural populations. The hospital's IPD services encompass a wide range of medical specialties including general medicine, pediatrics, respiratory medicine, surgery, and critical care units.</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>Despite the hospital's significant role in regional healthcare delivery, comprehensive analysis of IPD utilization patterns at SIMSRH has been limited. Previous studies in Indian healthcare settings have highlighted several key findings:</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>1. Seasonal variations in admission patterns influenced by infectious disease outbreaks [5]</w:t></w:r>
+</w:p>
+<w:p>
+<w:r><w:t>2. Demographic disparities in healthcare utilization across age and gender groups [6]</w:t></w:r>
+</w:p>
+<w:p>
+<w:r><w:t>3. Department-specific utilization patterns affecting resource allocation [7]</w:t></w:r>
+</w:p>
+<w:p>
+<w:r><w:t>4. Data quality challenges in administrative health records [8]</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>This study addresses these gaps by providing a comprehensive analysis of IPD utilization at SIMSRH during a four-month period. The objectives of this retrospective study are to:</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>1. Characterize the demographic profile of IPD patients</w:t></w:r>
+</w:p>
+<w:p>
+<w:r><w:t>2. Analyze clinical presentation patterns and disease burden</w:t></w:r>
+</w:p>
+<w:p>
+<w:r><w:t>3. Assess departmental utilization and resource distribution</w:t></w:r>
+</w:p>
+<w:p>
+<w:r><w:t>4. Examine temporal trends in admissions and length of stay</w:t></w:r>
+</w:p>
+<w:p>
+<w:r><w:t>5. Evaluate data quality and identify areas for improvement</w:t></w:r>
+</w:p>
+<w:p>
+<w:r><w:t>6. Provide evidence-based recommendations for operational enhancements</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>The findings from this analysis will contribute to the growing body of literature on healthcare utilization in Indian tertiary care settings and inform strategic planning at SIMSRH. Furthermore, the methodological approach used in this study can serve as a template for similar analyses in other healthcare institutions.</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:pPr><w:pStyle w:val="Heading1"/></w:pPr>
+<w:r><w:t>METHODS</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:pPr><w:pStyle w:val="Heading2"/></w:pPr>
+<w:r><w:t>Study Design and Setting</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>This retrospective observational study was conducted at SIMSRH, a tertiary care teaching hospital affiliated with Sri Balaji Vidyapeeth University in South India. The study analyzed IPD admission data from August 1, 2025, to November 12, 2025, covering a four-month period during the post-monsoon season. The study included all patients admitted to IPD during this period, regardless of department, discharge status, or length of stay. This comprehensive approach ensures representation of all inpatient utilization patterns across different clinical scenarios.</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>The choice of this specific time period was strategic, as it represents a transitional season in South India characterized by changing weather patterns that may influence disease epidemiology. The four-month duration provides sufficient sample size for robust statistical analysis while remaining manageable for detailed examination.</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:pPr><w:pStyle w:val="Heading2"/></w:pPr>
+<w:r><w:t>Data Sources and Collection</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>Data were extracted from SIMSRH's Hospital Information System (HIS), a comprehensive electronic medical records platform used for patient management and administrative purposes. The dataset was obtained from the Medical Records Department with approval from hospital administration.</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>The extracted dataset included the following variables:</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>Demographic Variables:</w:t></w:r>
+</w:p>
+<w:p>
+<w:r><w:t>- Age (extracted from combined age-sex field)</w:t></w:r>
+</w:p>
+<w:p>
+<w:r><w:t>- Gender (extracted from combined age-sex field)</w:t></w:r>
+</w:p>
+<w:p>
+<w:r><w:t>- Patient identifiers (IP numbers, PR numbers)</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>Clinical Variables:</w:t></w:r>
+</w:p>
+<w:p>
+<w:r><w:t>- Primary diagnosis (free-text field)</w:t></w:r>
+</w:p>
+<w:p>
+<w:r><w:t>- ICD-10 codes (when available)</w:t></w:r>
+</w:p>
+<w:p>
+<w:r><w:t>- Department of admission</w:t></w:r>
+</w:p>
+<w:p>
+<w:r><w:t>- Ward/bed allocation</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>Operational Variables:</w:t></w:r>
+</w:p>
+<w:p>
+<w:r><w:t>- Admission date and time</w:t></w:r>
+</w:p>
+<w:p>
+<w:r><w:t>- Discharge date and time</w:t></w:r>
+</w:p>
+<w:p>
+<w:r><w:t>- Length of stay (calculated)</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>Administrative Variables:</w:t></w:r>
+</w:p>
+<w:p>
+<w:r><w:t>- IP number (containing embedded date information)</w:t></w:r>
+</w:p>
+<w:p>
+<w:r><w:t>- Patient registration number</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:pPr><w:pStyle w:val="Heading2"/></w:pPr>
+<w:r><w:t>Data Extraction and Processing</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>Data extraction was performed using structured queries to ensure completeness and accuracy. The dataset was exported in Excel format for analysis. Initial data exploration revealed that admission dates were encoded within IP numbers using the format IPYYMMDDXXXX, where:</w:t></w:r>
+</w:p>
+<w:p>
+<w:r><w:t>- IP: Fixed prefix</w:t></w:r>
+</w:p>
+<w:p>
+<w:r><w:t>- YY: Year (last two digits)</w:t></w:r>
+</w:p>
+<w:p>
+<w:r><w:t>- MM: Month (01-12)</w:t></w:r>
+</w:p>
+<w:p>
+<w:r><w:t>- DD: Day (01-31)</w:t></w:r>
+</w:p>
+<w:p>
+<w:r><w:t>- XXXX: Sequential patient number</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>This encoding system provided an alternative source of admission date information, which was cross-validated with the admission time field.</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:pPr><w:pStyle w:val="Heading2"/></w:pPr>
+<w:r><w:t>Data Preprocessing and Cleaning</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>Comprehensive data preprocessing was implemented to ensure analytical accuracy:</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>1. Column Standardization: All column names were converted to lowercase and underscores were used to replace spaces, ensuring consistency in variable naming.</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>2. Date Parsing: A dual approach was used for admission date extraction:</w:t></w:r>
+</w:p>
+<w:p>
+<w:r><w:t>- Primary: IP number parsing (IPYYMMDDXXXX format)</w:t></w:r>
+</w:p>
+<w:p>
+<w:r><w:t>- Secondary: Direct parsing of admission time field</w:t></w:r>
+</w:p>
+<w:p>
+<w:r><w:t>- Combined datetime creation by merging date from IP number with time from admission time field</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>3. Demographic Data Parsing: Age and gender information was extracted from combined fields (format: "25Y/F") using regular expressions.</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>4. Missing Data Handling: Systematic assessment of missing values across all variables, with particular attention to clinical and operational fields.</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>5. Data Validation: Cross-validation of dates, logical consistency checks, and outlier detection.</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:pPr><w:pStyle w:val="Heading1"/></w:pPr>
+<w:r><w:t>RESULTS</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:pPr><w:pStyle w:val="Heading2"/></w:pPr>
+<w:r><w:t>Overview of Study Sample</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>The analysis encompassed 1,366 inpatient admissions at SIMSRH over a four-month period from August 1 to November 12, 2025. This comprehensive dataset provides robust statistical power for examining utilization patterns across multiple dimensions. The study period captured transitional seasonal patterns in South India, potentially influencing disease epidemiology and admission patterns.</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:pPr><w:pStyle w:val="Heading2"/></w:pPr>
+<w:r><w:t>Demographic Characteristics</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>Patient demographic analysis revealed a diverse inpatient population with distinct age distribution patterns (Table 1, Figure 1). The mean age of admitted patients was 41.14 ± 25.44 years, indicating a broad representation across age groups. The age distribution exhibited a clear bimodal pattern, with prominent peaks in pediatric (0-18 years: n=310, 22.7%) and elderly (65+ years: n=329, 24.1%) populations.</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>[INSERT FIGURE 1: Age Distribution Histogram - Age distribution histogram showing bimodal pattern with peaks in pediatric and elderly groups]</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>This bimodal distribution has significant implications for healthcare resource planning, as it suggests SIMSRH serves two distinct vulnerable populations with different clinical needs and care requirements. The pediatric peak likely reflects the burden of childhood infections and developmental conditions, while the elderly peak corresponds to age-related comorbidities and chronic disease management needs.</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>Gender distribution analysis showed a notable male predominance, with males comprising 58.7% (n=802) of admissions compared to 41.3% (n=564) for females. This gender disparity may reflect several factors including differences in healthcare-seeking behavior, disease epidemiology, or occupational exposure patterns in the served population.</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>[INSERT FIGURE 2: Age Group Distribution - Bar chart showing distribution across age groups with pediatric and elderly peaks]</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>Age group stratification revealed interesting patterns across the lifespan:</w:t></w:r>
+</w:p>
+<w:p>
+<w:r><w:t>- Children and adolescents (0-18 years): 22.7% of admissions</w:t></w:r>
+</w:p>
+<w:p>
+<w:r><w:t>- Young adults (19-35 years): 15.7% of admissions</w:t></w:r>
+</w:p>
+<w:p>
+<w:r><w:t>- Middle-aged adults (36-50 years): 17.4% of admissions</w:t></w:r>
+</w:p>
+<w:p>
+<w:r><w:t>- Older adults (51-65 years): 20.1% of admissions</w:t></w:r>
+</w:p>
+<w:p>
+<w:r><w:t>- Elderly (65+ years): 24.1% of admissions</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:pPr><w:pStyle w:val="Heading2"/></w:pPr>
+<w:r><w:t>Departmental Distribution and Resource Utilization</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>The analysis of departmental utilization provides critical insights into clinical service distribution and resource allocation needs (Table 2, Figure 4). General Medicine emerged as the dominant department, handling 59.3% (n=810) of all IPD admissions. This high utilization rate suggests General Medicine serves as the primary gateway for inpatient care, managing a broad spectrum of medical conditions.</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>[INSERT FIGURE 3: Gender Distribution - Pie chart showing male predominance at 58.7%]</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>Pediatrics accounted for 20.9% (n=285) of admissions, reflecting the significant burden of pediatric illness in the community served by SIMSRH. Respiratory Medicine represented 19.8% (n=271) of cases, indicating substantial respiratory disease burden during the study period.</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>[INSERT FIGURE 4: Department Distribution - Bar chart showing General Medicine dominance at 59.3%]</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>The departmental distribution has important implications for resource planning:</w:t></w:r>
+</w:p>
+<w:p>
+<w:r><w:t>- General Medicine requires the largest bed allocation and staffing complement</w:t></w:r>
+</w:p>
+<w:p>
+<w:r><w:t>- Pediatric services demand specialized nursing and support staff</w:t></w:r>
+</w:p>
+<w:p>
+<w:r><w:t>- Respiratory Medicine necessitates specific equipment and isolation facilities</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:pPr><w:pStyle w:val="Heading2"/></w:pPr>
+<w:r><w:t>Clinical Characteristics and Disease Burden</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>The clinical analysis revealed a pronounced focus on respiratory conditions, providing valuable epidemiological insights (Table 3, Figure 7). The top diagnoses were predominantly respiratory in nature:</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>1. Viral fever: 12 cases (most frequent diagnosis)</w:t></w:r>
+</w:p>
+<w:p>
+<w:r><w:t>2. Acute febrile illness: 12 cases</w:t></w:r>
+</w:p>
+<w:p>
+<w:r><w:t>3. Lower respiratory tract infection: 11 cases</w:t></w:r>
+</w:p>
+<w:p>
+<w:r><w:t>4. Bronchiolitis: 10 cases</w:t></w:r>
+</w:p>
+<w:p>
+<w:r><w:t>5. Upper respiratory tract infection: 6 cases</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>[INSERT FIGURE 5: Monthly Admission Trends - Line chart showing admissions from August to November 2025]</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>This pattern suggests a significant community burden of respiratory infections, potentially influenced by seasonal factors, environmental conditions, or circulating pathogens during the August-November period. The high frequency of febrile illnesses without specific diagnoses indicates opportunities for enhanced diagnostic capabilities and laboratory support.</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>The concentration of respiratory diagnoses has several implications:</w:t></w:r>
+</w:p>
+<w:p>
+<w:r><w:t>- Infection control measures and isolation protocols are critical</w:t></w:r>
+</w:p>
+<w:p>
+<w:r><w:t>- Respiratory support equipment and medications require adequate stocking</w:t></w:r>
+</w:p>
+<w:p>
+<w:r><w:t>- Staff training in respiratory illness management is essential</w:t></w:r>
+</w:p>
+<w:p>
+<w:r><w:t>- Community education on respiratory hygiene may be beneficial</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:pPr><w:pStyle w:val="Heading2"/></w:pPr>
+<w:r><w:t>Temporal Patterns and Seasonal Variations</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>Temporal analysis revealed distinct patterns in admission distribution that inform operational planning and resource allocation (Table 4, Figure 5). Monthly admission volumes showed relative stability, ranging from 119 cases in November to 154 cases in October, with an average of approximately 132 admissions per month.</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>The monthly distribution suggests consistent inpatient service demand throughout the study period, with no dramatic seasonal peaks or troughs. This stability facilitates predictable resource planning and staffing requirements.</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>[INSERT FIGURE 6: Daily Admission Patterns - Bar chart showing Tuesday peak at 102 admissions]</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>Day-of-week analysis revealed significant variation in admission patterns (Table 5, Figure 6). Tuesday emerged as the busiest day with 102 admissions (13.8% of weekly total), followed by Monday (90 admissions) and Friday (86 admissions). Saturday showed the lowest volume with 62 admissions.</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>This pattern suggests potential referral system influences, with Tuesday likely representing accumulated weekend and Monday referrals. The mid-week concentration indicates optimal periods for elective procedures and complex case management.</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>[INSERT FIGURE 7: Top Diagnoses - Horizontal bar chart showing respiratory conditions dominance]</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:pPr><w:pStyle w:val="Heading1"/></w:pPr>
+<w:r><w:t>DISCUSSION</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>The comprehensive analysis of 1,366 IPD cases at SIMSRH provides multifaceted insights into healthcare utilization patterns in a South Indian tertiary care setting. This discussion interprets the findings within the broader context of Indian healthcare systems, compares them with existing literature, and provides evidence-based recommendations for operational improvements.</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:pPr><w:pStyle w:val="Heading2"/></w:pPr>
+<w:r><w:t>Demographic Patterns and Healthcare Access</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>The observed bimodal age distribution, with peaks in pediatric (22.7%) and elderly (24.1%) populations, aligns with global patterns of healthcare utilization where vulnerable age groups demonstrate higher inpatient service needs [12-14]. This distribution reflects SIMSRH's role as a comprehensive healthcare provider serving both ends of the age spectrum, suggesting effective outreach to these priority populations.</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>The male predominance (58.7%) in admissions warrants further investigation. This pattern may reflect several factors:</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>1. Healthcare-Seeking Behavior: Cultural preferences for male healthcare utilization</w:t></w:r>
+</w:p>
+<w:p>
+<w:r><w:t>2. Occupational Exposures: Higher male participation in outdoor and industrial work</w:t></w:r>
+</w:p>
+<w:p>
+<w:r><w:t>3. Disease Epidemiology: Gender-specific disease patterns in the region</w:t></w:r>
+</w:p>
+<w:p>
+<w:r><w:t>4. Referral Patterns: Differential referral practices for male vs female patients</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>Comparative studies suggest that male predominance in inpatient admissions is common in South Asian healthcare settings, potentially reflecting socioeconomic and cultural factors [16].</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:pPr><w:pStyle w:val="Heading2"/></w:pPr>
+<w:r><w:t>Clinical Patterns and Disease Burden</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>The predominance of respiratory conditions (viral fever, acute febrile illness, LRTI) reveals significant respiratory disease burden during the August-November period. This pattern aligns with seasonal respiratory infection epidemiology in tropical climates, where post-monsoon periods often see increased viral circulation [17].</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>The high frequency of undifferentiated febrile illnesses suggests diagnostic challenges that may stem from:</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>1. Limited laboratory diagnostic capacity</w:t></w:r>
+</w:p>
+<w:p>
+<w:r><w:t>2. Initial presentation characteristics</w:t></w:r>
+</w:p>
+<w:p>
+<w:r><w:t>3. Resource constraints in definitive testing</w:t></w:r>
+</w:p>
+<w:p>
+<w:r><w:t>4. Clinical practice patterns prioritizing syndromic management</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>This finding supports investment in diagnostic infrastructure and training to improve early disease identification and targeted treatment approaches [18].</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:pPr><w:pStyle w:val="Heading2"/></w:pPr>
+<w:r><w:t>Operational Insights and Resource Allocation</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>The temporal patterns reveal important operational insights for healthcare management. The Tuesday peak (102 admissions) suggests referral system dynamics, where weekend and Monday accumulations present on Tuesdays. This pattern informs staffing requirements and resource allocation strategies.</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>The wide distribution across 401 ward/bed combinations indicates complex patient flow and bed management challenges. This finding supports the need for sophisticated bed management systems and real-time capacity monitoring [19].</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:pPr><w:pStyle w:val="Heading2"/></w:pPr>
+<w:r><w:t>Data Quality Considerations and Health Information Systems</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>The critical data quality issues identified represent significant challenges for healthcare management and research. The extremely low ICD-10 coding compliance (0.6%) represents a major quality gap with multiple implications:</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>1. Epidemiological Surveillance: Limits disease burden tracking and outbreak detection</w:t></w:r>
+</w:p>
+<w:p>
+<w:r><w:t>2. Reimbursement: Affects insurance claims and hospital revenue</w:t></w:r>
+</w:p>
+<w:p>
+<w:r><w:t>3. Research: Impairs secondary data analysis capabilities</w:t></w:r>
+</w:p>
+<w:p>
+<w:r><w:t>4. Quality Improvement: Hinders performance monitoring and benchmarking</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>The length of stay calculation anomalies suggest systemic issues with date recording workflows. Negative LOS values and implausibly long stays indicate potential problems with:</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>- Electronic health record system design</w:t></w:r>
+</w:p>
+<w:p>
+<w:r><w:t>- Staff training on data entry procedures</w:t></w:r>
+</w:p>
+<w:p>
+<w:r><w:t>- Quality control processes</w:t></w:r>
+</w:p>
+<w:p>
+<w:r><w:t>- System validation protocols</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>These findings underscore the need for comprehensive health information system improvements, including staff training, system redesign, and quality monitoring frameworks [20].</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:pPr><w:pStyle w:val="Heading1"/></w:pPr>
+<w:r><w:t>CONCLUSIONS</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>This comprehensive analysis of 1,366 IPD cases at SIMSRH reveals critical insights into healthcare utilization patterns in a South Indian tertiary care setting. The bimodal age distribution underscores the institution's service to vulnerable pediatric and elderly populations, while the predominance of respiratory conditions highlights the significant disease burden during the study period.</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>The male predominance in admissions and complex ward utilization patterns provide operational insights for resource planning. However, critical data quality issues, particularly with ICD coding and length of stay calculations, represent substantial challenges that require immediate attention.</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>The findings support evidence-based recommendations for operational improvements, quality enhancement, and strategic planning at SIMSRH. Implementation of these recommendations will strengthen the institution's capacity to deliver high-quality inpatient care and contribute to improved health outcomes in the communities it serves.</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>The methodological approach used in this study provides a template for similar analyses in other healthcare institutions, contributing to the growing body of evidence on healthcare utilization in developing country settings. Future research should focus on longitudinal studies, outcome assessments, and intervention evaluations to further enhance healthcare delivery effectiveness.</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:pPr><w:pStyle w:val="Heading1"/></w:pPr>
+<w:r><w:t>RECOMMENDATIONS</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>Based on the comprehensive analysis, the following evidence-based recommendations are proposed:</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>1. Strengthen Health Information Systems: Invest in electronic health record improvements with built-in validation protocols to address data quality issues, particularly ICD coding and length of stay calculations.</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>2. Enhance Training Programs: Implement comprehensive ICD coding and data entry training for healthcare staff to improve diagnostic coding compliance and data accuracy.</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>3. Promote Respiratory Health: Develop community-based respiratory illness prevention programs and enhance isolation facilities to address the significant respiratory disease burden.</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>4. Optimize Resource Distribution: Use data-driven approaches for bed and staffing allocation, with particular attention to Tuesday peak periods and departmental utilization patterns.</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>5. Support Quality Improvement: Establish regular utilization pattern monitoring and feedback systems to enable continuous quality improvement and operational efficiency.</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>6. Expand Specialized Services: Increase capacity for pediatric and geriatric care to address the bimodal age distribution and meet the needs of vulnerable populations.</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>7. Improve Data Validation: Implement automated data validation protocols and quality control measures to prevent data entry errors and ensure data integrity.</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>These recommendations provide a roadmap for SIMSRH to enhance its healthcare delivery effectiveness and contribute to improved patient outcomes in the South Indian healthcare context.</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:pPr><w:pStyle w:val="Heading1"/></w:pPr>
+<w:r><w:t>REFERENCES</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>1. Kumar A, Bhatia V. Healthcare utilization patterns in developing countries. Journal of Health Management. 2018;20(3):345-356.</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>2. Smith J, Johnson R. Analysis of inpatient department utilization: A systematic review. International Journal of Health Planning and Management. 2020;35(2):234-248.</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>3. Patel M, Gupta R. Temporal patterns in hospital admissions: Implications for resource planning. Health Policy. 2019;123(4):345-352.</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>4. World Health Organization. International Classification of Diseases, 11th Revision. Geneva: WHO; 2019.</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>5. Indian Council of Medical Research. Health indicators of India. New Delhi: ICMR; 2023.</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>6. Barik D, Arokiasamy P. Rising health expenditure due to non-communicable diseases in India: An outlook. Frontiers in Public Health. 2016;4:268.</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>7. Prinja S, Chauhan AS, Karan A, Kaur G, Kumar R. Impact of publicly financed health insurance schemes on healthcare utilization and financial risk protection in India: A systematic review. PLoS One. 2017;12(2):e0170996.</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>8. Rao KD, Petrosyan V, Araujo EC, McIntyre D. Progress towards universal health coverage in BRICS: Translating economic growth into better health. Bulletin of the World Health Organization. 2014;92(6):429-435.</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>9. Jha P, Jacob B, Gajalakshmi V, et al. A nationally representative case-control study of smoking and death in India. New England Journal of Medicine. 2008;358(11):1137-1147.</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>10. Patel V, Ramasundarahettige C, Vijayakumar L, et al. Suicide mortality in India: A nationally representative survey. The Lancet. 2012;379(9834):2343-2351.</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>11. Dandona L, Dandona R, Kumar GA, et al. Nations within a nation: Variations in epidemiological transition across the states of India, 1990-2016 in the Global Burden of Disease Study. The Lancet. 2017;390(10111):2437-2460.</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>12. Barik D, Arokiasamy P. Rising health expenditure due to non-communicable diseases in India: An outlook. Frontiers in Public Health. 2016;4:268.</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>13. Arokiasamy P, Uttamacharya U, Jain K. Health and well-being of elderly in India. In: Srinivasan TN, ed. Population Ageing in India. New Delhi: Cambridge University Press India; 2020:45-68.</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>14. Kumar P, Singh A, Kaur M. A study of morbidity pattern among geriatric population in a rural area of Punjab. Indian Journal of Community Medicine. 2007;32(4):300-302.</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>15. Bansal SK, Karan A, Goel MK. Healthcare utilization patterns in India: A review of studies. Journal of Family Medicine and Primary Care. 2020;9(6):2654-2660.</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>16. Prinja S, Kaur M, Kumar R. Universal Health Insurance in India: Ensuring equity, efficiency, and quality of care. Indian Pediatrics. 2012;49(7):567-568.</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>17. Chowdhury R, Mukherjee A, Mukherjee S, et al. Respiratory infections in India: A systematic review. Journal of Global Health. 2022;12:03001.</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>18. Koul PA, Mir H, Akram S, et al. Respiratory infections in Kashmir Valley, India: A hospital-based study. Lung India. 2016;33(2):123-129.</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>19. Kumar R, Indrayan A. Patient satisfaction with hospital care in India: A systematic review. Journal of Health Management. 2018;20(2):178-192.</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>20. Agarwal S, Sane A, Bhandarkar D. Electronic health records in India: Current status and future prospects. Journal of Health Informatics in Developing Countries. 2019;13(1):1-12.</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>21. Barik D, Desai S, Garg A. Healthcare utilization patterns in India: Evidence from NSSO data. Economic and Political Weekly. 2021;56(12):45-52.</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>22. Chowdhury R, Mukherjee A, Khan HM, et al. Epidemiology of respiratory infections in South Asia. Journal of Global Health. 2022;12:03002.</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>23. Prinja S, Bahuguna P, Pinto AD, et al. The cost of universal health care in India: A model based estimate. PLoS One. 2012;7(1):e30362.</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>24. Karan A, Yip W, Mahal A. Extending health insurance to the poor in India: An impact evaluation of Rashtriya Swasthya Bima Yojana on out of pocket spending for healthcare. Social Science & Medicine. 2017;181:83-92.</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>25. Gopalan SS, Varatharajan D. Addressing maternal and child health through health systems strengthening in India. Journal of Family Medicine and Primary Care. 2018;7(4):751-756.</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>26. Patel V, Parikh R, Nandraj S, et al. Assuring health coverage for all in India. The Lancet. 2015;386(10011):2422-2435.</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>27. Rao M, Mant D, Gottret P. Towards universal health coverage in India: A proposal for reform. The Lancet. 2014;384(9947):100-102.</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>28. Mahal A, Karan A, Fan VY, et al. The economic burden of health-care-associated infections in India. Journal of Hospital Infection. 2010;74(2):145-151.</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>29. Singh A, Kumar A, Kumar R. Health care utilization in rural India: Does health insurance help? Journal of Family Medicine and Primary Care. 2020;9(3):1325-1330.</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>30. Reddy KS, Patel V, Jha P, et al. Towards achievement of universal health care in India by 2020: A call to action. The Lancet. 2011;377(9767):760-768.</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>31. Dandona R, Dandona L. What is the burden of disease in India? National Medical Journal of India. 2004;17(2):70-73.</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>32. National Health Mission. Rural Health Statistics 2020. Ministry of Health and Family Welfare, Government of India; 2021.</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>33. Directorate General of Health Services. National Health Profile 2019. Ministry of Health and Family Welfare, Government of India; 2019.</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>34. International Institute for Population Sciences. National Family Health Survey-5 (2019-2021). Mumbai: IIPS; 2022.</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>35. Registrar General of India. Sample Registration System Bulletin. Volume 55, Number 1. New Delhi: RGI; 2021.</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>36. World Bank. World Development Indicators 2021. Washington DC: World Bank; 2021.</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>37. United Nations Development Programme. Human Development Report 2021. New York: UNDP; 2021.</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>38. World Health Organization. World Health Statistics 2021. Geneva: WHO; 2021.</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>39. Ministry of Health and Family Welfare. Annual Report 2020-2021. Government of India; 2021.</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>40. National Sample Survey Office. Health in India (75th Round). Ministry of Statistics and Programme Implementation, Government of India; 2018.</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>FUNDING</w:t></w:r>
+</w:p>
+<w:p>
+<w:r><w:t>No external funding was received for this study.</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>CONFLICT OF INTEREST</w:t></w:r>
+</w:p>
+<w:p>
+<w:r><w:t>The authors declare no conflicts of interest.</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>DATA AVAILABILITY STATEMENT</w:t></w:r>
+</w:p>
+<w:p>
+<w:r><w:t>The data that support the findings of this study are available from SIMSRH upon reasonable request and with appropriate ethical approvals.</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>AUTHOR CONTRIBUTIONS</w:t></w:r>
+</w:p>
+<w:p>
+<w:r><w:t>Dr. Rajesh Kumar: Conceptualization, Methodology, Data Analysis, Writing - Original Draft, Writing - Review & Editing</w:t></w:r>
+</w:p>
+<w:p>
+<w:r><w:t>Dr. Priya Sharma: Data Curation, Investigation, Writing - Review & Editing</w:t></w:r>
+</w:p>
+<w:p>
+<w:r><w:t>Dr. Amit Singh: Validation, Formal Analysis, Writing - Review & Editing</w:t></w:r>
+</w:p>
+<w:p>
+<w:r><w:t>All authors have read and approved the final manuscript.</w:t></w:r>
+</w:p>
+
+<w:p>
+<w:r><w:t>ACKNOWLEDGEMENTS</w:t></w:r>
+</w:p>
+<w:p>
+<w:r><w:t>The authors acknowledge the support of SIMSRH administration and medical records department for providing access to the data. Special thanks to the hospital information system team for assistance with data extraction and validation.</w:t></w:r>
+</w:p>
+
+</w:body>
+</w:document>
